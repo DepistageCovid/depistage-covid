@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ReactNativeSeed-tvOS.app"
-               BlueprintName = "ReactNativeSeed-tvOS"
-               ReferencedContainer = "container:ReactNativeSeed.xcodeproj">
+               BuildableName = "DepistageCovid-tvOS.app"
+               BlueprintName = "DepistageCovid-tvOS"
+               ReferencedContainer = "container:DepistageCovid.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ReactNativeSeed-tvOSTests.xctest"
-               BlueprintName = "ReactNativeSeed-tvOSTests"
-               ReferencedContainer = "container:ReactNativeSeed.xcodeproj">
+               BuildableName = "DepistageCovid-tvOSTests.xctest"
+               BlueprintName = "DepistageCovid-tvOSTests"
+               ReferencedContainer = "container:DepistageCovid.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeSeed-tvOS.app"
-            BlueprintName = "ReactNativeSeed-tvOS"
-            ReferencedContainer = "container:ReactNativeSeed.xcodeproj">
+            BuildableName = "DepistageCovid-tvOS.app"
+            BlueprintName = "DepistageCovid-tvOS"
+            ReferencedContainer = "container:DepistageCovid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeSeed-tvOS.app"
-            BlueprintName = "ReactNativeSeed-tvOS"
-            ReferencedContainer = "container:ReactNativeSeed.xcodeproj">
+            BuildableName = "DepistageCovid-tvOS.app"
+            BlueprintName = "DepistageCovid-tvOS"
+            ReferencedContainer = "container:DepistageCovid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

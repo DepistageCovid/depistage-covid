@@ -1,4 +1,4 @@
-package com.reactnativeseed;
+package com.rriviere.depistagecovid;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -14,6 +14,6 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected String getMainComponentName() {
-    return "ReactNativeSeed";
+    return "DepistageCovid";
   }
 }

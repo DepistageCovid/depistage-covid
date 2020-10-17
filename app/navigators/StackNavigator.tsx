@@ -5,14 +5,12 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import TabNavigator from './TabNavigator';
-import ProfileScreen from '../components/screens/ProfileScreen';
-import {TouchableOpacity} from 'react-native-gesture-handler';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import {AppColors, AppIcons, AppRoutes, AppSettings} from '../Constants';
+import {AppRoutes, AppSettings} from '../Constants';
 import I18n from 'react-native-i18n';
 import {TransitionSpec} from '@react-navigation/stack/lib/typescript/src/types';
 import {FirebaseAuthTypes} from '@react-native-firebase/auth';
+import HomeScreen from '../components/screens/HomeScreen';
+import ActivityScreen from '../components/screens/ActivityScreen';
 
 const Stack = createStackNavigator();
 
@@ -30,19 +28,20 @@ class StackNavigator extends React.Component {
     return (
       <NavigationContainer independent={true}>
         <Stack.Navigator
-          initialRouteName={AppRoutes.STACK_TABS}
+          initialRouteName={AppRoutes.STACK_HOME}
           screenOptions={{
             cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
           }}>
           <Stack.Screen
-            name={AppRoutes.STACK_TABS}
-            component={TabNavigator}
+            name={AppRoutes.STACK_HOME}
+            component={HomeScreen}
             options={({navigation}) => ({
               title: AppSettings.APP_NAME,
               transitionSpec: {
                 open: this.animationConfig,
                 close: this.animationConfig,
               },
+              /*
               headerRight: () =>
                 this.user?.isAnonymous ? null : (
                   <TouchableOpacity
@@ -54,14 +53,14 @@ class StackNavigator extends React.Component {
                       color={AppColors.INACTIVE}
                     />
                   </TouchableOpacity>
-                ),
+                ),*/
             })}
           />
           <Stack.Screen
-            name={AppRoutes.STACK_PROFILE}
-            component={ProfileScreen}
+            name={AppRoutes.STACK_ACTIVITY}
+            component={ActivityScreen}
             options={{
-              title: I18n.t('PROFILE_SCREEN.TITLE'),
+              title: I18n.t('ACTIVITY_SCREEN.TITLE'),
               transitionSpec: {
                 open: this.animationConfig,
                 close: this.animationConfig,

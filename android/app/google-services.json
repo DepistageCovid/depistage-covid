@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:330371363:android:1f15b929547490f891fc96",
         "android_client_info": {
-          "package_name": "com.reactnativeseed"
+          "package_name": "com.rriviere.depistagecovid"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "330371363-mugnl66rl1irgiv7nsp3si25ihrpean3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.reactnativeseed",
+            "package_name": "com.rriviere.depistagecovid",
             "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
           }
         },

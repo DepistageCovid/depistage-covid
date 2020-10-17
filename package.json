@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeSeed",
+  "name": "depistage-covid",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,6 +22,7 @@
     "@react-navigation/native": "^5.7.4",
     "@react-navigation/stack": "^5.9.1",
     "@types/yup": "^0.29.7",
+    "convert-csv-to-json": "^1.0.0",
     "formik": "^2.1.7",
     "react": "16.13.1",
     "react-native": "0.63.2",
